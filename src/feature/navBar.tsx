@@ -5,13 +5,13 @@ export const NavBar: React.FC = () => {
     return (
       <nav className="nav-bar">
         <ul className="nav-bar__list">
-          <li><a href="#" className="nav-bar__logo" id="logo"><img src={logo} height="50" width="100" /></a></li>
+          <li><a href="#" className="nav-bar__logo" id="logo"><img src={logo} height="70" width="130" /></a></li>
             <div className="nav-bar__item-list">
-              <li><a href="#" className="nav-bar__item" id="aboutUs">About Us</a></li>
-              <li><a href="#" className="nav-bar__item" id="workOut">Work Out</a></li>
-              <li><a href="#" className="nav-bar__item" id="nutrition">Nutrition</a></li>
-              <li><a href="#" className="nav-bar__item" id="pricing">Pricing</a></li>
-              <li><a href="#" className="nav-bar__item" id="contactUs">Contact Us</a></li>
+              <li><a href="#" className="nav-bar__item" id="whyUs">WHY US?</a></li>
+              <li><a href="#" className="nav-bar__item" id="memberships">MEMBERSHIPS</a></li>
+              <li><a href="#" className="nav-bar__item" id="classTime">CLASS TIMETABLES</a></li>
+              <li><a href="#" className="nav-bar__item" id="training">TRAINING</a></li>
+              <li><a href="#" className="nav-bar__item" id="contactUs">CONTACT US</a></li>
             </div>
         </ul>
       </nav>  
