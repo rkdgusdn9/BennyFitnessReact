@@ -1,19 +1,30 @@
 import React from 'react';
-import logo from '../images/benny.png';
+import Logo1 from '../images/Facebook.png';
+import Logo2 from '../images/Twitter.png';
+import Logo3 from '../images/Instagram.png';
+import { Button } from '../components/button';
 
 export const Footer: React.FC = () => {
     return (
-      <nav className="nav-bar">
-        <ul className="nav-bar__list">
-          <li><a href="#" className="nav-bar__logo" id="logo"><img src={logo} height="50" width="100" /></a></li>
-            <div className="nav-bar__item-list">
-              <li><a href="#" className="nav-bar__item" id="aboutUs">About Us</a></li>
-              <li><a href="#" className="nav-bar__item" id="workOut">Work Out</a></li>
-              <li><a href="#" className="nav-bar__item" id="nutrition">Nutrition</a></li>
-              <li><a href="#" className="nav-bar__item" id="pricing">Pricing</a></li>
-              <li><a href="#" className="nav-bar__item" id="contactUs">Contact Us</a></li>
-            </div>
-        </ul>
-      </nav>  
+    	<footer className="footer margin-x magin-y">
+			<div className='footer__copy'>COPYRIGHT © BENNYFITNESS</div>
+			<div className='footer__terms'>
+				<a className="footer__terms-item" href="#">TERMS & CONDITIONS </a>
+				<span className="footer__divider">/</span>
+				<a className="footer__terms-item" href="#"> PRIVACY POLICY</a>
+			</div>
+			<div className='footer__social'>
+				<a href="#">
+					<img className="footer__img" src={Logo1}/>
+				</a>
+				<a href="#">
+					<img className="footer__img" src={Logo2}/>
+				</a>
+				<a href="#">
+					<img className="footer__img" src={Logo3}/>
+				</a>
+				<Button/>
+			</div>
+		</footer>
     )
 }

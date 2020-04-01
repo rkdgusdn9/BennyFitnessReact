@@ -1,7 +1,63 @@
 .footer {
+    align-items: center;
+    background: #353535;
+    padding-left: 1%;
+    padding-right: 1%;
+    bottom: 0;
     position: fixed;
-    bottom: 0
+    width: 100%;
+    display: flex;
+    color: #cbcbcb;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 5px 0;
+
+    &__copy {
+        margin-left: 10px;
+        width: 50%;
+        display: flex;
+        text-align: left;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    &__divider {
+        margin: 0 5px;
+    }
+
+    &__terms {
+        width: 30%;
+        display: flex;
+        text-align: right;
+    }
+
+    &__terms-item {
+        text-decoration: none;
+        list-style-type: none;
+        color: #cbcbcb;
+    }
+
+    &__social {
+        display: flex;
+        text-align: right;
+        width: 20%
+    }
+
+    &__img {
+        padding: 0 4px;
+        height: 35px;
+        width: 35px;
+    }
 }
+
+
+// .footer {
+//      position:bottom;
+//      bottom:0;
+//      background-color: black;
+//          }
 
 // <div>
 //  <h1>
