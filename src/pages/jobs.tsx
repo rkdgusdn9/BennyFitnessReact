@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '../components/button';
 import { Link } from 'react-router-dom';
+import { Button } from '../components/button';
 
 export const JobsPage: React.FC = () => {
     return <div><span>

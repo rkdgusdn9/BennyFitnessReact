@@ -12,9 +12,9 @@ function App() {
     <>
       <NavBar/>
         <HashRouter>
-          <Route path="/" component={HomePage} exact/>
-          <Route path="/jobs" component={JobsPage} />
-          <Route path="/test" component={TestPage} />
+            <Route path="/" component={HomePage} exact/>
+            <Route path="/jobs" component={JobsPage} />
+            <Route path="/test" component={TestPage} />
         </HashRouter>
       <Footer/>
     </>

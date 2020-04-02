@@ -1,0 +1,134 @@
+#container {
+    width: 100%;
+  }
+
+.home-page {  
+
+&__text{
+    align-self: center;
+    margin-left: 10px;
+    width: 35%;
+
+    .memberships{
+        color: white;
+        font-weight: 300;
+        font-size: 26px;
+        
+    }
+    
+    .price{
+        color: white;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 80px;
+        
+    }
+    
+    .explain{
+        color: #fff;
+        font-family: 'proxima-nova',Sans-Serif;
+        line-height: 25px;
+        width: 30%;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        
+    }
+}
+
+&__list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+&__list{
+        display: flex;
+        width: 100%;
+        height: auto;
+        min-height: 450px;
+        background-image: url('../../images/Header-Test.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5px;
+    }
+
+////////////////////////////////////////////////////////////
+
+&__benefit{
+        display: flex;
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+        background-image: url('../../images/Fitness.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5px;
+}
+
+&__row{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: auto;
+    
+}
+
+&__row-block{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+}
+
+&__row-title{
+    color: red;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+&__row-description{
+    color: #fff;
+        font-family: 'proxima-nova',Sans-Serif;
+        line-height: 25px;
+        font-style: normal;
+        //font-weight: 100;
+        font-size: 16px;
+        width: 180px;
+}
+////////////////////////////////////////////////////////////
+
+&__ready{
+        display: flex;
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+        margin-top: 5px;
+        background-color: #101518;
+}
+
+&__ready-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+&__ready-title{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+&__ready-description{
+    color: white;
+    width: 500px;
+    font-weight: 150;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+}
+
