@@ -1,7 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export const Button: React.FC = () => {
-    return <div>
-        button
-    </div>
+interface Props {
+    buttonText: string;
+    link: string;
+}
+export const Button: React.FC<Props> = (props) => {
+    const {buttonText, link} = props;
+    return <Link to={link} className="button">
+            {buttonText}
+        </Link>
 }
