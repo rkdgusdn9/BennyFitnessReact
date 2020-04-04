@@ -19,13 +19,13 @@ export const Footer: React.FC = () => {
 				</a>
 			</div>
 			<div className="footer__social">
-				<a href="#">
+				<a href="https://www.facebook.com/Nickie.kang.50" target="_blank">
 					<img className="footer__img" src={Logo1} />
 				</a>
-				<a href="#">
+				<a href="https://www.linkedin.com/in/bennykang/" target="_blank">
 					<img className="footer__img" src={Logo2} />
 				</a>
-				<a href="#">
+				<a href="https://www.instagram.com/rkdgusdn9/" target="_blank">
 					<img className="footer__img" src={Logo3} />
 				</a>
 			</div>
