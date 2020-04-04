@@ -14,7 +14,7 @@ export const Ready: React.FC<Props> = (props) => {
 			<div className="home-page__ready-container">
 				<h1 className="home-page__ready-title">{title}</h1>
 				<p className="home-page__ready-description">{description}</p>
-				<Button buttonText="JOIN TODAY" buttonColour link="/" />
+				<Button buttonText="JOIN TODAY" buttonColour link="/memberships" />
 			</div>
 		</div>
 	);
