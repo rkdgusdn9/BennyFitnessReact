@@ -3,7 +3,7 @@ import './assets/styles/index.scss';
 import { Footer } from './feature/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { HomePage } from './pages/home';
-import { JobsPage } from './pages/jobs';
+import { WhyUsPage } from './pages/whyUs';
 import { TestPage } from './pages/test';
 import { NavBar } from './feature/navBar';
 
@@ -13,7 +13,7 @@ function App() {
 			<NavBar />
 			<BrowserRouter>
 				<Route path="/" component={HomePage} exact />
-				<Route path="/jobs" component={JobsPage} />
+				<Route path="/whyUs" component={WhyUsPage} />
 				<Route path="/test" component={TestPage} />
 			</BrowserRouter>
 			<Footer />
