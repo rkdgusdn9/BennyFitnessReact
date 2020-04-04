@@ -1,0 +1,89 @@
+#container {
+    width: 100%;
+  }
+
+.membership {
+        display: flex;
+        width: 100%;
+        height: auto;
+        
+
+        .membership-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-color: black;
+        
+
+        }
+
+        &__list{
+            background-color: #DCDCDC;
+            flex-direction: column;
+            height: auto;
+            width: 80%;
+            display: flex;
+            margin: auto;
+            border: solid lightgrey;
+            border-radius: 12px;
+        }
+
+
+    &__list-title{
+        margin-top: 5%;
+        font-size: 56px;
+        line-height: 50px;
+        text-align: center;
+        font-family: 'proxima-nova',Sans-Serif;
+        text-transform: uppercase;
+    }
+
+    &__list-item{
+        width: 80%;
+        font-size: 19px;
+        font-weight: normal;
+        letter-spacing: 0;
+        text-transform: none;
+        text-align: center;
+        margin: auto;
+        font-family: 'proxima-nova',Sans-Serif;
+        line-height: 1.4;
+        
+        
+    }
+
+    &__back-ground{
+        margin-top: 5%;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .button-item{
+        position: absolute;
+    left: 32.3%;
+    top: 96%;
+    width: 11%;
+    height: 5.49%;
+    z-index: 2;
+    }
+
+    .button-item1{
+        position: absolute;
+    left: 56%;
+    top: 96%;
+    width: 11%;
+    height: 5.49%;
+    z-index: 2;
+    }
+    .button-item2{
+        position: absolute;
+    left: 79.1%;
+    top: 96%;
+    width: 11%;
+    height: 5.49%;
+    z-index: 2;
+    }
+    
+}

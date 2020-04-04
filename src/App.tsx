@@ -4,7 +4,7 @@ import { Footer } from './feature/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { HomePage } from './pages/home';
 import { WhyUsPage } from './pages/whyUs';
-import { TestPage } from './pages/test';
+import { MembershipsPage } from './pages/memberships';
 import { NavBar } from './feature/navBar';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 			<BrowserRouter>
 				<Route path="/" component={HomePage} exact />
 				<Route path="/whyUs" component={WhyUsPage} />
-				<Route path="/test" component={TestPage} />
+				<Route path="/memberships" component={MembershipsPage} />
 			</BrowserRouter>
 			<Footer />
 		</>
