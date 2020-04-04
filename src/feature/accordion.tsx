@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 interface Props {
 	title: string;
-	content: string;
+	content: JSX.Element;
 }
 
 export const Accordion: React.FC<Props> = (props) => {
