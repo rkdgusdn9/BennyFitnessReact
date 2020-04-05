@@ -20,10 +20,14 @@ export const WhyUsPage: React.FC = () => {
 						title="# How much does a bennyfitness membership cost?"
 						content={
 							<div>
-								"There are 3 membership options available: Basic Membership ($6.99
+								There are 3 membership options available: Basic Membership ($6.99
 								per week), Better Membership ($11.99 per week) or Black Card
-								Membership ($13.99 per week). you can pick up your membership card
-								at the club during staffed hours."
+								Membership ($13.99 per week).{' '}
+								<a href="/memberships" className="anchor-tag">
+									See more membership details or buy today
+								</a>{' '}
+								. When you purchase your membership online, you can pick up your
+								membership card at the club during staffed hours.
 							</div>
 						}
 					/>
@@ -31,14 +35,17 @@ export const WhyUsPage: React.FC = () => {
 						title="# What is a family membership?"
 						content={
 							<div>
-								"An amazing privilege for our Black Card Members is that they can
+								An amazing privilege for our Black Card Members is that they can
 								share their membership with family &amp; bring a guest with every
 								visit - both family members and guests can then use BennyFitness for
 								free. They must be 18 years of age or older unless accompanied by
 								parent or guardian where the minimum age is 14 years old. The Black
-								Card friend (guest or family member) has the same privileges as our
-								Basic Membership, excluding 24/7 access and fitness orientations. A
-								Black Card friend can only visit during staffed hours"
+								Card friend (guest or family member) has the same privileges as our{' '}
+								<a href="/memberships" className="anchor-tag">
+									Basic Membership
+								</a>
+								, excluding 24/7 access and fitness orientations. A Black Card
+								friend can only visit during staffed hours
 							</div>
 						}
 					/>
@@ -46,9 +53,8 @@ export const WhyUsPage: React.FC = () => {
 						title="# Are all the clubs open 24/7? How are they staffed?"
 						content={
 							<div>
-								"All BennyFitness clubs are open 24 hours/7 days a week for all
-								members. To check your club's staffed and unstaffed hours, click
-								here."
+								All BennyFitness clubs are open 24 hours/7 days a week for all
+								members.
 							</div>
 						}
 					/>
@@ -56,9 +62,9 @@ export const WhyUsPage: React.FC = () => {
 						title="# What if I have questions?"
 						content={
 							<div>
-								"If you have questions regarding your club or memberships please
+								If you have questions regarding your club or memberships please
 								speak to one of the BennyFitness staff, at the club, during staffed
-								hours. (see my club hours)."
+								hours.
 							</div>
 						}
 					/>
@@ -69,7 +75,7 @@ export const WhyUsPage: React.FC = () => {
 								Each BennyFitness club features 30+ pieces of cardio equipment,
 								selectorized strength equipment, which allows members to choose
 								their own level of resistance, and a large free weight area (2.25kg
-								to 50kg dumbbells)."
+								to 50kg dumbbells).
 							</div>
 						}
 					/>
@@ -79,10 +85,12 @@ export const WhyUsPage: React.FC = () => {
 							<div>
 								Cardio and strength training equipment are available as well as
 								stretching areas. Group Fitness Classes are available at all our
-								locations for members with applicable membership types (see
-								membership options). The Black Card Membership includes usage of
-								massage chairs during staffed hours (see my club hours) at
-								applicable locations."
+								locations for members with applicable membership types{' '}
+								<a href="/memberships" className="anchor-tag">
+									(see membership options)
+								</a>
+								. The Black Card Membership includes usage of massage chairs during
+								staffed hours at applicable locations.
 							</div>
 						}
 					/>
@@ -93,7 +101,7 @@ export const WhyUsPage: React.FC = () => {
 								Yes, BennyFitness is proud to offer a full range of fitness classes
 								and personal training programs to help you achieve your fitness
 								goals. Please note that personal training is only available for
-								members."
+								members.
 							</div>
 						}
 					/>
@@ -104,8 +112,7 @@ export const WhyUsPage: React.FC = () => {
 								If a BennyFitness member or Black Card Friend does not have the
 								membership card with them they will not be allowed entry into the
 								club. If your card has been lost/stolen a new card can be purchased,
-								during staffed hours (see my club hours), a $10 administration fee
-								applies."
+								during staffed hours, a $10 administration fee applies.
 							</div>
 						}
 					/>
@@ -116,7 +123,7 @@ export const WhyUsPage: React.FC = () => {
 								Black Card members can register family and/or friends to be a Black
 								Card Friend allowing free access to BennyFitness. If you are not a
 								Black Card member, but would like to bring a guest to the club with
-								you, there is a $20 per visit guest fee."
+								you, there is a $20 per visit guest fee.
 							</div>
 						}
 					/>
@@ -129,7 +136,7 @@ export const WhyUsPage: React.FC = () => {
 								must be at least 14 years of age and must bring their parent/legal
 								guardian into the club with them to register. A minor cannot
 								purchase a membership online. Anyone under 14 years of age can not
-								use our facilities."
+								use our facilities.
 							</div>
 						}
 					/>
@@ -139,7 +146,7 @@ export const WhyUsPage: React.FC = () => {
 							<div>
 								Wear comfortable, breathable fabrics and running or cross-training
 								shoes. We recommend that you always bring a lock, water bottle and
-								sweat towel."
+								sweat towel.
 							</div>
 						}
 					/>
@@ -148,11 +155,11 @@ export const WhyUsPage: React.FC = () => {
 						content={
 							<div>
 								Memberships can be purchased online or at any BennyFitness location
-								during staffed hours (see my club hours). If you plan to sign up for
-								a membership in club, please bring a void cheque to your first visit
-								to be able to provide your banking details. If you purchase your
-								membership online, you can pick up your membership card at the club
-								during staffed hours (see my club hours)."
+								during staffed hours. If you plan to sign up for a membership in
+								club, please bring a void cheque to your first visit to be able to
+								provide your banking details. If you purchase your membership
+								online, you can pick up your membership card at the club during
+								staffed hours.
 							</div>
 						}
 					/>
@@ -161,7 +168,7 @@ export const WhyUsPage: React.FC = () => {
 						content={
 							<div>
 								You can upgrade your BennyFitness membership at any BennyFitness
-								club during staffed hours."
+								club during staffed hours.
 							</div>
 						}
 					/>
