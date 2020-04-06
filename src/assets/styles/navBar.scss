@@ -22,9 +22,10 @@
         display: flex;
         width: 100%;
         align-items: center;
-        margin: auto;
+        margin-left: 2%;
+        margin-right: 2%;
         list-style-type: none;
-        padding: auto;
+        padding: 3%;
 
           &__logo {
             display: flex;
@@ -32,13 +33,13 @@
           }
       
           &__text {
-            display: inline;
+            display: flex;
             font-family: "Fira Sans", sans-serif;
             font-size: 23px;
             color: #f2f2f2;
             text-decoration: none;
             padding: 14px;
-            margin: 0 30px;
+            //margin: 0 10%;
             &:hover {
               color: red;
               text-decoration: none;
