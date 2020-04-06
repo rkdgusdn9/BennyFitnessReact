@@ -6,6 +6,7 @@
         display: flex;
         width: 100%;
         height: auto;
+        position: relative;
         
 
         .membership-container{
@@ -56,6 +57,7 @@
     &__back-ground{
         margin-top: 5%;
         display: flex;
+        position: relative;
         width: 100%;
         height: auto;
     }

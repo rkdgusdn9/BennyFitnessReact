@@ -19,7 +19,11 @@ export const Member: React.FC = () => {
 				Exercise is proven to reduce stress/anxiety, increase energy, aid in weight loss,
 				and improve overall health.
 			</h2>
-			<img className="membership__back-ground" src={require('../images/Member.png')} />
+			<img
+				className="membership__back-ground"
+				alt="BennyFitness-membership"
+				src={require('../images/Member.png')}
+			/>
 		</div>
 	);
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Accordion } from '../feature/accordion';
 
 export const WhyUsPage: React.FC = () => {

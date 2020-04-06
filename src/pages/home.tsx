@@ -16,7 +16,6 @@ export const HomePage: React.FC = () => {
                         are achieving their fitness goals in our clubs
                         all over New Zealand."
 				/>
-
 				<Benefit
 					title="LOSE WEIGHT"
 					description="Exercise, specifically Cardio, helps to burn calories &amp; body fat. It can aid in weight loss and boost your confidence."
@@ -27,7 +26,6 @@ export const HomePage: React.FC = () => {
 					title3="IMPROVE HEALTH"
 					description3="Exercise strengthens the heart, improves circulation, &amp; decreases blood pressure. It can reduce the risk of chronic disease."
 				/>
-
 				<Ready
 					title="READY TO JOIN?"
 					description="From our friendly front desk to expert personal trainers,

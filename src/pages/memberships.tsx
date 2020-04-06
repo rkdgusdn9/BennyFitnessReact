@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../components/button';
 import { Member } from '../feature/member';
 
 export const MembershipsPage: React.FC = () => {

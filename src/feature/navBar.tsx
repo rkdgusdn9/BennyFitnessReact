@@ -4,40 +4,41 @@ import logo from '../images/benny.png';
 export const NavBar: React.FC = () => {
 	return (
 		<nav className="nav-bar">
-			<ul className="nav-bar__list">
-				<li>
-					<a href="/" className="nav-bar__logo" id="logo">
-						<img src={logo} height="70" width="130" />
-					</a>
-				</li>
-				<div className="nav-bar__item-list">
+			<div className="nav-bar__container">
+				<ul className="list-items">
 					<li>
-						<a href="/whyUs" className="nav-bar__item" id="whyUs">
+						<a href="/" className="list-items__logo" id="logo">
+							<img src={logo} alt="BennyFitness" height="80" width="150" />
+						</a>
+					</li>
+
+					<li>
+						<a href="/whyUs" className="list-items__text" id="whyUs">
 							WHY US?
 						</a>
 					</li>
 					<li>
-						<a href="/memberships" className="nav-bar__item" id="memberships">
+						<a href="/memberships" className="list-items__text" id="memberships">
 							MEMBERSHIPS
 						</a>
 					</li>
 					<li>
-						<a href="#" className="nav-bar__item" id="classTime">
+						<a href="#" className="list-items__text" id="classTime">
 							CLASS TIMETABLES
 						</a>
 					</li>
 					<li>
-						<a href="#" className="nav-bar__item" id="training">
+						<a href="#" className="list-items__text" id="training">
 							TRAINING
 						</a>
 					</li>
 					<li>
-						<a href="#" className="nav-bar__item" id="contactUs">
+						<a href="#" className="list-items__text" id="contactUs">
 							CONTACT US
 						</a>
 					</li>
-				</div>
-			</ul>
+				</ul>
+			</div>
 		</nav>
 	);
 };

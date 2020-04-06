@@ -10,10 +10,10 @@ export const Ready: React.FC<Props> = (props) => {
 	const { title, description } = props;
 
 	return (
-		<div className="home-page__ready">
-			<div className="home-page__ready-container">
-				<h1 className="home-page__ready-title">{title}</h1>
-				<p className="home-page__ready-description">{description}</p>
+		<div className="ready">
+			<div className="ready__items">
+				<h1 className="ready-title">{title}</h1>
+				<p className="ready-description">{description}</p>
 				<Button buttonText="JOIN TODAY" buttonColour link="/memberships" />
 			</div>
 		</div>
