@@ -12,19 +12,20 @@
     letter-spacing: 2px;
     font-weight: 100;
     text-transform: uppercase;
-    padding: 5px 0;
+    padding: 0.5% 0;
 
     &__copy {
-        margin-left: 10px;
+        margin-left: 1%;
         width: 50%;
         display: flex;
+        align-items: center;
         text-align: left;
         text-decoration: none;
         list-style-type: none;
     }
 
     &__divider {
-        margin: 0 5px;
+        margin: 0 1%;
     }
 
     &__terms {
@@ -45,13 +46,11 @@
         width: 10%;
         // margin: top right bottom left;
         // margin: vertical horizontal;
-        margin-right: 5px;
+        margin-right: 0.5%;
     }
 
     &__img {
-        padding: 0 4px;
-        height: 35px;
-        width: 35px;
+        padding: 0 10%;
     }
 }
 

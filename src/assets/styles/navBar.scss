@@ -5,59 +5,66 @@
 /** NAVIGATION BAR */
 
 .nav-bar {
+    overflow: hidden;
     position: relative;
     width: 100%;
     display: flex;
     background-color: black;
     //position: relative;
+    }
 
-    &__container{
+    .nav-bar__container{
       display: flex;
       width: 100%;
-      position: relative;
-
-
-
-      .list-items{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        margin-left: 2%;
-        margin-right: 2%;
-        list-style-type: none;
-        padding: 3%;
-
-          &__logo {
-            display: flex;
-            //margin-right: 50px;
-          }
-      
-          &__text {
-            display: flex;
-            font-family: "Fira Sans", sans-serif;
-            font-size: 23px;
-            color: #f2f2f2;
-            text-decoration: none;
-            padding: 14px;
-            //margin: 0 10%;
-            &:hover {
-              color: red;
-              text-decoration: none;
-            }
-          }
+      padding: 2% 3%;
       }
 
-    
+      .logo-container{
+        align-self: center;
+        &__logo {
+          display: flex;
+        }
+      }
 
-  }  
-}
+      .space-container{
+        width: 100%;  
+        align-self: center;
+      }
+        .nav-items-container{
+          
+        }
+          .list-items{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+
+              &__text {
+                display: flex;
+                font-family: "Fira Sans", sans-serif;
+                font-size: 23px;
+                color: #f2f2f2;
+                text-decoration: none;
+                padding: 30px;
+                &:hover {
+                  color: red;
+                  text-decoration: none;
+                }
+              }
+          }
 
 @media only screen and (max-width: 1010px){
+  .space-container{
+    
+  }
+
   .nav-bar__container{
-    //position: relative;
+    flex-direction: column;
     .list-items{
       flex-direction: column;
-      }
+      align-items: center;
+      padding: 0%;
+    }
     }
   }
 
