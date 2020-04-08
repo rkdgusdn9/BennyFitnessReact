@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { HomePage } from './pages/home';
 import { WhyUsPage } from './pages/whyUs';
 import { MembershipsPage } from './pages/memberships';
+import { ClassesPage } from './pages/classes';
 import { NavBar } from './feature/navBar';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/" component={HomePage} exact />
 				<Route path="/whyUs" component={WhyUsPage} />
 				<Route path="/memberships" component={MembershipsPage} />
+				<Route path="/classes" component={ClassesPage} />
 			</BrowserRouter>
 			<Footer />
 		</>

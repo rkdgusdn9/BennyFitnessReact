@@ -27,8 +27,8 @@ export const NavBar: React.FC = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#" className="list-items__text" id="classTime">
-									CLASS TIMETABLES
+								<a href="/classes" className="list-items__text" id="classes">
+									CLASSES
 								</a>
 							</li>
 							<li>

@@ -1,0 +1,131 @@
+.classes-container{
+    display: flex;
+    width: 100%;
+    background-color: #E8E8E8;
+    .classes-row{
+        padding-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 90%;
+
+        .read-container{
+            padding-top: 4%;
+            padding-bottom: 2%;
+            
+        .read-classes{
+            box-shadow: none;
+            border: 2px solid #ee2e24;
+            border-radius: 3px;
+            background: none;
+            color: #ee2e24;
+            font-family: 'proxima-nova',Sans-Serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin: 10px auto;
+            width: 300px;
+            padding: 5px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            transition: background 200ms linear;
+            &:hover{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+    }
+}
+
+.class{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+
+
+.shadow{
+    margin-top: 60px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.white-padding{
+    padding: 50px 20px 20px 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.classes-img1{
+    background-image: url('../../images/class-image/Cardio.png');
+    position: absolute;
+    height: 108px;
+    width: 108px;
+    display: block;
+    top: -54px;
+    left: 50%;
+    margin-left: -54px;
+    background-color: #2ebdfe;
+    border-radius: 108px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.classes-img2{
+    background-image: url('../../images/class-image/Strength.png');
+    position: absolute;
+    height: 108px;
+    width: 108px;
+    display: block;
+    top: -54px;
+    left: 50%;
+    margin-left: -54px;
+    background-color: #2ebdfe;
+    border-radius: 108px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.classes-img3{
+    background-image: url('../../images/class-image/Yoga.png');
+    position: absolute;
+    height: 108px;
+    width: 108px;
+    display: block;
+    top: -54px;
+    left: 50%;
+    margin-left: -54px;
+    background-color: #2ebdfe;
+    border-radius: 108px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.classes-img4{
+    background-image: url('../../images/class-image/Adaptable.png');
+    position: absolute;
+    height: 108px;
+    width: 108px;
+    display: block;
+    top: -54px;
+    left: 50%;
+    margin-left: -54px;
+    background-color: #2ebdfe;
+    border-radius: 108px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.class-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.class-text{
+
+}
