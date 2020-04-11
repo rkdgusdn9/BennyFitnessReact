@@ -1,6 +1,4 @@
-
 .membership-container{
-        display: flex;
         background-color: black;
         padding-top: 5%;
         padding-bottom: 10%;
@@ -10,13 +8,11 @@
             background-color: #DCDCDC;
             flex-direction: column;
             height: auto;
-            width: 100%;
             display: flex;
             margin: auto;
             border: solid lightgrey;
             border-radius: 12px;
         }
-
 
     .membership__list-title{
         margin-top: 3%;
@@ -37,18 +33,17 @@
         text-align: center;
         margin: auto;
         font-family: 'proxima-nova',Sans-Serif;
-        line-height: 1.4;
+        line-height: 1.5;
         
         
     }
 
     .membership__back-ground{
-        margin-top: 5%;
         background-image: url("../../images/Member.png");
         background-repeat:no-repeat;
         background-size:contain;
         background-position:center;
-        height: 60vw;
+        height: 85vw;
     }
 
-} 
+}
