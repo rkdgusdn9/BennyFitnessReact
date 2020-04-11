@@ -32,7 +32,7 @@
             font-size: 250%;
             text-transform: uppercase;
         }
-        &__context{
+        &__content{
             font-size: 19px;
             font-weight: normal;
             letter-spacing: 0;
@@ -47,7 +47,8 @@
         background-repeat:no-repeat;
         background-size:contain;
         background-position:center;
-        height: 12vw;    }
+        height: 12vw;    
+    }
     .description-groove{
         background-image: url("../../images/description/groove.png");
         background-repeat:no-repeat;

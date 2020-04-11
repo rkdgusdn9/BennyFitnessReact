@@ -1,31 +1,16 @@
-#container {
-    width: 100%;
-  }
 
-.membership {
+.membership-container{
         display: flex;
-        width: 100%;
-        height: 100%;
-        position: relative;
-        
-
-        .membership-container{
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
         background-color: black;
-        padding-top: 10%;
-        padding-bottom: 17%;
-        
-
-        }
-
-        &__list{
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        .membership__list{
             background-color: #DCDCDC;
             flex-direction: column;
             height: auto;
-            width: 80%;
+            width: 100%;
             display: flex;
             margin: auto;
             border: solid lightgrey;
@@ -33,17 +18,18 @@
         }
 
 
-    &__list-title{
-        margin-top: 5%;
-        font-size: 56px;
-        line-height: 50px;
+    .membership__list-title{
+        margin-top: 3%;
+        font-size: 250%;
         text-align: center;
         font-family: 'proxima-nova',Sans-Serif;
         text-transform: uppercase;
     }
 
-    &__list-item{
-        width: 80%;
+    .membership__list-item{
+        padding-top: 3%;
+        padding-left: 15%;
+        padding-right: 15%;
         font-size: 19px;
         font-weight: normal;
         letter-spacing: 0;
@@ -56,38 +42,13 @@
         
     }
 
-    &__back-ground{
+    .membership__back-ground{
         margin-top: 5%;
-        display: flex;
-        position: relative;
-        width: 100%;
-        height: auto;
+        background-image: url("../../images/Member.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 60vw;
     }
 
-    .button-item{
-        position: absolute;
-    left: 32.3%;
-    top: 96%;
-    width: 11%;
-    height: 5.49%;
-    z-index: 2;
-    }
-
-    .button-item1{
-        position: absolute;
-    left: 56%;
-    top: 96%;
-    width: 11%;
-    height: 5.49%;
-    z-index: 2;
-    }
-    .button-item2{
-        position: absolute;
-    left: 79.1%;
-    top: 96%;
-    width: 11%;
-    height: 5.49%;
-    z-index: 2;
-    }
-    
-}
+} 
