@@ -4,7 +4,6 @@ import hamburger from '../images/Hamburger.png';
 
 export const NavBar: React.FC = () => {
 	const [setActive, setActiveState] = useState('');
-	const className = 'className';
 
 	function toggleHamburger() {
 		setActiveState(setActive === '' ? 'active' : '');
