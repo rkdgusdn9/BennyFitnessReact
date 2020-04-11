@@ -6,7 +6,7 @@ export const ClassesPage: React.FC = () => {
 		<div className="classes-container">
 			<div className="classes-row">
 				<div className="read-container">
-					<a href="#" className="read-classes">
+					<a href="/description" className="read-classes">
 						Read Class Descriptions
 					</a>
 				</div>

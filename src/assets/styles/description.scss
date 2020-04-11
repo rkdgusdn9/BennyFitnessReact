@@ -1,0 +1,111 @@
+.des-columns{
+    position: relative;
+    width: 100%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    .des-shadow{
+        margin-top: 10%;
+        box-shadow: 0 0 15px rgba(0,0,0,.1);
+        background-color: white;
+        .des-white-padding{
+            padding: 50px 20px 20px 20px;
+            position: relative;
+        }
+    }
+}
+.description-container{
+    background-color: #E8E8E8;
+    padding-bottom: 3%;
+    .description-row{
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+    }
+    .heading-column{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-top: 1%;
+        &__title{
+            font-size: 250%;
+            text-transform: uppercase;
+        }
+        &__context{
+            font-size: 19px;
+            font-weight: normal;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+    }
+
+    // description image styles
+
+    .description-ride{
+        background-image: url("../../images/description/ride.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;    }
+    .description-groove{
+        background-image: url("../../images/description/groove.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-blast{
+        background-image: url("../../images/description/blast.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-centergy{
+        background-image: url("../../images/description/centergy.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-zumba{
+        background-image: url("../../images/description/zumba.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-circuit{
+        background-image: url("../../images/description/circuit.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-yoga{
+        background-image: url("../../images/description/yoga.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }
+    .description-litepace{
+        background-image: url("../../images/description/litepace.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+        height: 12vw;
+    }    
+}
+
+@media only screen and (max-width: 1010px){
+    .description-container{
+        flex-direction: column;
+        .description-row{
+            flex-direction: column;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+    }
+}

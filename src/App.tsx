@@ -7,6 +7,7 @@ import { WhyUsPage } from './pages/whyUs';
 import { MembershipsPage } from './pages/memberships';
 import { ClassesPage } from './pages/classes';
 import { NavBar } from './feature/navBar';
+import { DescriptionPage } from './pages/description';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route path="/whyUs" component={WhyUsPage} />
 				<Route path="/memberships" component={MembershipsPage} />
 				<Route path="/classes" component={ClassesPage} />
+				<Route path="/description" component={DescriptionPage} />
 			</BrowserRouter>
 			<Footer />
 		</>
