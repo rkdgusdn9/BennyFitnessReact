@@ -5,6 +5,15 @@ export const ClassesPage: React.FC = () => {
 	return (
 		<div className="classes-container">
 			<div className="classes-row">
+				<div className="classes-column">
+					<h1 className="classes-column__title">Group Fitness</h1>
+					<br></br>
+					<h2 className="classes-column__content">
+						Whether you're looking for Cardio, Strength Training, Toning, Yoga, or low
+						impact classes to get you started, BennyFitness has a class for every body
+						that will help you exercise and achieve your fitness goals.
+					</h2>
+				</div>
 				<div className="read-container">
 					<a href="/description" className="read-classes">
 						Read Class Descriptions
