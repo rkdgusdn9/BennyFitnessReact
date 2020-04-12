@@ -8,6 +8,7 @@ import { MembershipsPage } from './pages/memberships';
 import { ClassesPage } from './pages/classes';
 import { NavBar } from './feature/navBar';
 import { DescriptionPage } from './pages/description';
+import { TrainingPage } from './pages/training';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Route path="/memberships" component={MembershipsPage} />
 				<Route path="/classes" component={ClassesPage} />
 				<Route path="/description" component={DescriptionPage} />
+				<Route path="/training" component={TrainingPage} />
 			</BrowserRouter>
 			<Footer />
 		</>

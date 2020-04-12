@@ -45,7 +45,7 @@ export const NavBar: React.FC = () => {
 						</a>
 					</li>
 					<li>
-						<a href="#" className="list-items__text" id="training">
+						<a href="/training" className="list-items__text" id="training">
 							TRAINING
 						</a>
 					</li>
