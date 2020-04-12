@@ -141,10 +141,16 @@
 .class-heading{
     text-align: center;
     text-transform: uppercase;
+    font-family: 'proxima-nova',Sans-Serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.1em;
+    font-size: 180%;
 }
 
 .class-text{
-
+    line-height: 1.4em;
+    font-size: 140%;
 }
 
 @media screen and (max-width: 450px){
@@ -154,4 +160,4 @@
         display: flex;
         }
     }
-  }
+}
