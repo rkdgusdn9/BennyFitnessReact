@@ -11,7 +11,7 @@ export const TrainingPage: React.FC = () => {
 					</h1>
 					<br></br>
 					<h2 className="training-column__content">
-						CityFitness Personal Training has a programme that will help you exercise
+						BennyFitness Personal Training has a programme that will help you exercise
 						and achieve your fitness goals.
 					</h2>
 					<br></br>
@@ -23,7 +23,7 @@ export const TrainingPage: React.FC = () => {
                         programmes and services best for you. For those looking for extra guidance, personal training is the most 
                         effective way to reach your fitness goals. Our certified personal trainers will work one-on-one with you 
                         to keep you motivated and educated while you focus on your goal. We have personal training options to 
-                        benefit everyone. CityFitness personal trainers will help you stay motivated, encourage you to push to 
+                        benefit everyone. BennyFitness personal trainers will help you stay motivated, encourage you to push to 
                         your potential, and help you achieve results faster than ever before. No matter what your fitness 
                         goals are, our personal trainers will create a goal-focused training plan for you that will help you achieve 
                         and exceed those goals through diverse routines designed to continuously challenge you."

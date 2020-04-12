@@ -9,7 +9,7 @@ export const Member: React.FC = () => {
 				membership for you
 			</h1>
 			<h2 className="membership__list-item">
-				With a membership at CityFitness, you have access to incredible services and
+				With a membership at BennyFitness, you have access to incredible services and
 				amenities that will help you achieve your goals. We believe that you should get to
 				choose the membership that works best for your needs without all the sales pressure.
 				A section of our popular membership options are now available to buy online. We hope
