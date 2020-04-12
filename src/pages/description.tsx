@@ -12,7 +12,7 @@ export const DescriptionPage: React.FC = () => {
 						Description
 					</h1>
 					<h2 className="heading-column__content">
-						CityFitness has a class for every body that will help you exercise and
+						BennyFitness has a class for every body that will help you exercise and
 						achieve your fitness goals.
 					</h2>
 				</div>
