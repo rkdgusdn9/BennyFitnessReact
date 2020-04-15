@@ -50,7 +50,7 @@ export const NavBar: React.FC = () => {
 						</a>
 					</li>
 					<li>
-						<a href="#" className="list-items__text" id="contactUs">
+						<a href="/contact" className="list-items__text" id="contactUs">
 							CONTACT US
 						</a>
 					</li>
