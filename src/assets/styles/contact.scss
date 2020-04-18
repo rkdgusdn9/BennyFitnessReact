@@ -1,18 +1,97 @@
 .contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     width: 100%;
     min-height: 100vh;
     justify-content: center;
+    background-color: black;
+    
+
     .contact-container{
+        //border: solid;
+        border-radius: 12px;
         display: block;
         width: 80%;
-        padding-top: 2%;
+        color: white;
+        background-image: url(../../images/Contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
     
     .contact-row{
+        padding-top: 5%;
+        padding-bottom: 5%;
         justify-content: center;
         display: flex;
         align-items: center;
-        font-size: xx-large;
+        font-size: x-large;
+    }
+    .contact-box{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form{
+        border: solid 2px;
+        background-color: transparent;
+        color: white;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3% 5%;
+
+    }
+
+    .contact-input{
+        width: 240px;
+    }
+
+    .contact-button{
+            align-items: center;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 12px;
+            color: white;
+            display: flex;
+            font-weight: 500;
+            height: 30px;
+            justify-content: center;
+            letter-spacing: 1px;
+            margin: auto;
+            text-decoration: none;
+            width: 70px;
+            &:hover {
+                background-color: darkred;
+            }
+    }
+}
+
+
+@media screen and (max-width: 1010px){
+    .contact{
+        min-height: 100vh;
+    }
+    .contact-row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 370px){
+    .contact-form{
+       width: 80%;
+       .contact-input{
+        width: 210px;
+        }
+    }
+    .contact-img{
+        width: 270px;
+        height: 270px;
+    }
+    .contact-address{
+        font-size: large;
     }
 }

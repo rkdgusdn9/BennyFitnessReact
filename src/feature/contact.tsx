@@ -1,11 +1,16 @@
 import React from 'react';
 import BennyKang from '../images/BennyKang.png';
+import { Email } from '../feature/email';
 
 export const Contact: React.FC = () => {
 	return (
 		<div className="contact-container">
+			<h1 style={{ fontSize: '250%', textAlign: 'center', textTransform: 'uppercase' }}>
+				Contact Us
+			</h1>
+			<br></br>
 			<div className="contact-row">
-				<p>
+				<p className="contact-address">
 					1/874A Mount Eden Road
 					<br></br>
 					Three Kings, Auckland
@@ -16,19 +21,14 @@ export const Contact: React.FC = () => {
 					<br></br>
 					Phone : 021 102 7873
 				</p>
-				<img src={BennyKang}></img>
+				<img className="contact-img" src={BennyKang}></img>
 			</div>
 			<br></br>
-			<div>
-				{/* <input type="text"></input>
-				<br></br>
-				<input type="text"></input>
-				<br></br>
-				<input type="text"></input>
-				<br></br>
-				<input type="text"></input> */}
-			</div>
-			<div></div>
+			<br></br>
+			<h2 style={{ textAlign: 'center', textTransform: 'uppercase' }}>
+				Please feel free to contact us if you need any further information.
+			</h2>
+			<Email />
 		</div>
 	);
 };
