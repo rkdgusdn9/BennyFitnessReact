@@ -4,9 +4,10 @@
 
 .why-page{
         display: relative;
+        justify-content: center;
         width: 100%;
         height: auto;
-        min-height: 450px;
+        min-height: 100vh;
         background-image: url('../../images/StarWall.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -64,51 +65,47 @@
   }
 
   &__list-container {
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
   }
 
   &__section-container{ 
     display: flex;
-    width: 65%;
+    
     flex-direction: column;
     align-self: center;
     margin: auto;
     background-color: transparent;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    border: solid 1px lightgrey;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: solid 2px lightgrey;
     border-radius: 12px;
   }
 
   &__section{
     display: flex;
-    align-self: center;
-    margin: auto;
-    margin-left: 20px;
+    margin-left: 2%;
     margin-bottom: 1%;
   }
 
   &__heading{
     align-self: center;
-    margin: auto;
     text-align: center;
     color: whitesmoke;
-    width: 75%;
     margin-top: 50px;
   }
 
   &__heading-title{
     text-align: center;
-    margin: auto;
-    font-size: 50px;
+    font-size: 250%;
     font-weight: 700;
   }
 
   &__heading-content{
     text-align: center;
-    margin: auto;
-    font-size: 20px;
+    font-size: 130%;
     font-weight: 500;
     letter-spacing: 2px;
   }
