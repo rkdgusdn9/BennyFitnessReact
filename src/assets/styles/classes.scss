@@ -18,13 +18,15 @@
         width: 100%;
         padding-top: 1%;
         &__title{
+            font-family: 'proxima-nova',Sans-Serif;
             font-size: 250%;
             text-transform: uppercase;
         }
         &__content{
-            font-size: 19px;
-            font-weight: normal;
-            letter-spacing: 0;
+            text-align: center;
+            font-size: 130%;
+            font-weight: 500;
+            letter-spacing: 2px;
             text-transform: none;
         }
 

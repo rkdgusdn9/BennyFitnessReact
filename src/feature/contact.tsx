@@ -5,7 +5,9 @@ import { Email } from '../feature/email';
 export const Contact: React.FC = () => {
 	return (
 		<div className="contact-container">
-			<h1 style={{ fontSize: '250%', textAlign: 'center', textTransform: 'uppercase' }}>
+			<h1
+				className="contact-heading"
+				style={{ fontSize: '250%', textAlign: 'center', textTransform: 'uppercase' }}>
 				Contact Us
 			</h1>
 			<br></br>

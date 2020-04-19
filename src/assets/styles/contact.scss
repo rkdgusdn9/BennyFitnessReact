@@ -9,7 +9,6 @@
     
 
     .contact-container{
-        //border: solid;
         border-radius: 12px;
         display: block;
         width: 80%;
@@ -18,6 +17,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    }
+
+    .contact-heading{
+        font-family: 'proxima-nova',Sans-Serif;
+    }
+    .contact-address{
+        font-size: 130%;
+        font-weight: normal;
+        text-transform: none;
     }
     
     .contact-row{
