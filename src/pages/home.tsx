@@ -2,11 +2,13 @@ import React from 'react';
 import { List } from '../feature/list';
 import { Benefit } from '../feature/benefit';
 import { Ready } from '../feature/ready';
+import { Motiv } from '../feature/motiv';
 
 export const HomePage: React.FC = () => {
 	return (
 		<div className="home-page">
 			<div className="home-page__list-container">
+				<Motiv />
 				<List
 					title="Membership Starting At"
 					price="$6.99 / Week"
