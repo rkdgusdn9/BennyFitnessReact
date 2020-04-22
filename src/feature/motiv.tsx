@@ -7,12 +7,7 @@ export const Motiv: React.FC = () => {
 			autoPlay
 			loop
 			muted
-			style={{
-				objectFit: 'cover',
-				width: '100%',
-				maxHeight: '30%',
-				marginTop: '0.3%',
-			}}>
+			style={{ objectFit: 'cover', maxWidth: '100%', marginTop: '0.3%' }}>
 			<source src={video} type="video/mp4" />
 		</video>
 	);
